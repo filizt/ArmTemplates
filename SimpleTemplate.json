@@ -1,0 +1,12 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "resources": [
+        {
+            "name": "statefulResource",
+            "type": "Providers.Test/StatefulResources",
+            "apiVersion": "2014-06-01",
+            "location": "eastus"
+        }
+    ]
+}
